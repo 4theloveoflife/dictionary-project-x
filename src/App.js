@@ -1,8 +1,8 @@
 import logo from "./logobw.png";
-import './App.css';
+import "./App.css";
 import Dictionary from "./Dictionary";
 
-function App() {
+export default function App() {
   return (
     <div className="App">
       <div className="container">
@@ -14,11 +14,11 @@ function App() {
         <Dictionary />
       </main>
       <footer
-         className="App-footer"><small>Coded by Tiffany Walker</small>
+         className="App-footer">
+          <small>Coded by Tiffany Walker</small>
       </footer>
     </div>
     </div>
   );
 }
 
-export default App;
