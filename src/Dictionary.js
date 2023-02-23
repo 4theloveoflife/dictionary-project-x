@@ -26,7 +26,7 @@ export default function Dictionary(props) {
         let pexelsApiKey=
         "Pa7dTbZpHB4WaUtkoupqkZallAG0b72JCVQTHCAHvQORWgDAuP7YGIch";
         let pexelsApiUrl= `https://api.pexels.com/v1/search?query=${keyword}&per_page=9`;
-        let headers= { Authorization: `Bearer ${pexelsApiKey}` };
+        let headers= { Authorization: ` ${pexelsApiKey}` };
          axios.get(pexelsApiUrl, { headers:  headers }).then(handlePexelsResponse);
 }   
 
@@ -57,7 +57,7 @@ if (loaded){
                 />
         </form>
         <div className="hint">
-            suggested words: worcestershire, quinoa, anemone,mischievous...
+            suggested words: love, quinoa, anemone,mischievous...
             </div>
             </section>
         <Results results={results} />
