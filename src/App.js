@@ -11,11 +11,19 @@ export default function App() {
         alt="logo" />
       </header>
       <main>
-        <Dictionary defaultKeyword="sunset"  />
+        <Dictionary defaultKeyword="hope"  />
       </main>
       <footer
          className="App-footer">
-          <small>Coded by Tiffany Walker</small>
+          <small>
+           Coded by {""} <a href="https://storied-horse-b21b8c.netlify.app/"
+            target="_blank"
+          rel="noreferrer">{""}
+             Tiffany Walker 
+         </a> {""}and is <a href="https://github.com/4theloveoflife/dictionary-project-x"
+         target="_blank"
+          rel="noreferrer"
+        >open-sourced  </a> </small>
       </footer>
     </div>
     </div>

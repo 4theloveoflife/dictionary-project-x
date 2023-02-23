@@ -1,5 +1,5 @@
 .Phonetic a{
-    border:1px solid #ddd;
+    border:1px solid whitesmoke;
     text-decoration: none;
     padding:8px 15px;
     font-size:12px;
@@ -10,11 +10,11 @@
 }
 
 .Phonetic a:hover{
-    background:#9670f4;
+    background:rgb(51, 0, 131) 100.2%;
     color:white;
 }
 
-Phonetic{
+.Phonetic{
     margin:20px 0;
 }
 

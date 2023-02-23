@@ -48,7 +48,7 @@ if (loaded){
     return (
           <div className="Dictionary" >
             <section>
-                <h1>What word do you want to look up?</h1>
+                <h1>Dictionary</h1>
         <form onSubmit={handleSubmit}>
             <input 
             type="search" 
@@ -57,7 +57,7 @@ if (loaded){
                 />
         </form>
         <div className="hint">
-            suggested words: sunset, wine. yoga.plants...
+            suggested words: worcestershire, quinoa, anemone,mischievous...
             </div>
             </section>
         <Results results={results} />
